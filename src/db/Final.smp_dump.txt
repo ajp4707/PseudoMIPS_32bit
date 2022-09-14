@@ -1,0 +1,21 @@
+
+State Machine - |top_level|controller:U_controller|state_r
+Name state_r.HALT state_r.STALL state_r.J_LINK_2 state_r.J_LINK_1 state_r.J_ADDR state_r.BRANCH_IF state_r.I_REG_WR state_r.I_ALU state_r.R_REG_WR state_r.R_ALU state_r.MEM_WRITE state_r.MEM_REG_WR state_r.MEM_MDR_READ state_r.MEM_READ state_r.STORE_W state_r.LOAD_W state_r.IR_DECODE state_r.IR_FETCH 
+state_r.IR_FETCH 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state_r.IR_DECODE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state_r.LOAD_W 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state_r.STORE_W 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state_r.MEM_READ 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state_r.MEM_MDR_READ 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state_r.MEM_REG_WR 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state_r.MEM_WRITE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state_r.R_ALU 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state_r.R_REG_WR 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state_r.I_ALU 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state_r.I_REG_WR 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state_r.BRANCH_IF 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.J_ADDR 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.J_LINK_1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.J_LINK_2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.STALL 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.HALT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

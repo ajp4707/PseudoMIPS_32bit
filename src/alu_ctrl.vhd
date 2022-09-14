@@ -1,0 +1,107 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity alu_ctrl is
+	port(
+		ALU_OP : in std_logic_vector(1 downto 0);
+		-- 00 PC. Do not enable the ALU enables
+		-- 01 R-type. Decode func_OP
+		-- 10 I-type. Decode IR_OP
+		-- 11 Branch-type
+		
+		func_OP : in std_logic_vector(5 downto 0); --R type commands
+												   --Maps to IR[5:0]
+												   
+		IR_OP : in std_logic_vector(5 downto 0);   --I type commands. Same as Instruction register
+												   -- Maps to IR[31:26]
+												   
+		IR_20_16 : in std_logic_vector(4 downto 0); -- Maps to IR[20.:16]. Used to decode two Branch instrs
+		
+		OPsel : out std_logic_vector(4 downto 0); -- sent to ALU
+		
+		HI_en : out std_logic;
+		LO_en : out std_logic;
+		ALU_LO_HI_sel : out std_logic_vector(1 downto 0) --output to ALU out mux
+	);
+end alu_ctrl;
+
+architecture BHV of alu_ctrl is
+
+begin
+
+	process(ALU_OP, func_OP, IR_OP, IR_20_16)
+	begin
+		HI_en <= '0';
+		LO_en <= '0';
+		ALU_LO_HI_sel <= "00";
+		OPsel <= "00000";
+	
+		if (ALU_OP = "00") then  -- PC and Memory
+			ALU_LO_HI_sel <= "00";
+			OPsel <= "00000";		--simple addition
+
+		elsif (ALU_OP = "01") then -- R type ALU (and J_R)
+			HI_en <= '1';
+			LO_en <= '1';
+			-- We must decode the func_OP
+			case func_OP is
+				when "100001" => OPsel <= "00000"; --add
+				when "100011" => OPsel <= "00001"; --sub
+				when "011001" => OPsel <= "00010"; --mult un
+				when "011000" => OPsel <= "00011"; --mult sg
+				when "100100" => OPsel <= "00100"; --and
+				when "100101" => OPsel <= "00101"; --or
+				when "100110" => OPsel <= "00110"; --xor
+				when "000010" => OPsel <= "00111"; --srl
+				when "000011" => OPsel <= "01000"; --sra
+				when "000000" => OPsel <= "01001"; --sll
+				when "101011" => OPsel <= "01100"; --LT un
+				when "101010" => OPsel <= "01101"; --LT sg
+				when "010000" => OPsel <= "00000"; --Move Hi
+						HI_en <= '0';
+						LO_en <= '0';
+						ALU_LO_HI_sel <= "10";
+				when "010010" => OPsel <= "00000"; --Move Low
+						HI_en <= '0';
+						LO_en <= '0';
+						ALU_LO_HI_sel <= "01";
+				when "001000" => OPsel <= "10001"; -- Pass along RA (for J R) command
+				when others => OPsel <= "00000";
+			end case;
+			
+		elsif (ALU_OP = "10") then -- I type
+			HI_en <= '1';
+			LO_en <= '1';
+			-- We must decode the IR
+			case IR_OP is
+				when "001001" => OPsel <= "00000"; --addi
+				when "010000" => OPsel <= "00001"; --subi
+				when "001100" => OPsel <= "00100"; --andi
+				when "001101" => OPsel <= "00101"; --ori
+				when "001110" => OPsel <= "00110"; --xori
+				when "001011" => OPsel <= "01100"; --LT un i
+				when "001010" => OPsel <= "01101"; --LT sg i
+				when others => OPsel <= "00000";
+			end case;
+			
+		elsif (ALU_OP = "11") then -- Branch Type
+			HI_en <= '1';
+			LO_en <= '1';
+			-- We must decode the IR
+			case IR_OP is
+				when "000100" => OPsel <= "01010"; --beq
+				when "000101" => OPsel <= "01011"; --bneq
+				when "000110" => OPsel <= "01110"; --bltez
+				when "000111" => OPsel <= "01111"; --bgtz
+				when "000001" => -- bltz or bgte
+					if (IR_20_16 = "00001")then --bgez	
+						OPsel <= "01111"; 
+					else						--bltz
+						OPsel <= "01101";
+					end if;
+				when others => OPsel <= "00000";
+			end case;
+		end if;
+	end process;
+end BHV;

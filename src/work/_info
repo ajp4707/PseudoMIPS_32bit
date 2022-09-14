@@ -1,0 +1,672 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ajp47/source/EEL4712Work/Lab6
+Ealu_ctrl
+Z0 w1649779622
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/ajp47/source/EEL4712Work/Project
+Z5 8C:/Users/ajp47/source/EEL4712Work/Project/alu_ctrl.vhd
+Z6 FC:/Users/ajp47/source/EEL4712Work/Project/alu_ctrl.vhd
+l0
+L5
+VhC9;eGRH85SgY:dM=TdgT0
+!s100 a6^KEj[nzN6zSBM<@9Rn`1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1649796718
+!i10b 1
+Z9 !s108 1649796718.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/alu_ctrl.vhd|
+Z11 !s107 C:/Users/ajp47/source/EEL4712Work/Project/alu_ctrl.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abhv
+R1
+R2
+R3
+Z14 DEx4 work 8 alu_ctrl 0 22 hC9;eGRH85SgY:dM=TdgT0
+l31
+L29
+V:?AlbH6V?]QeB^VAIY]Ka3
+!s100 2`=z1KJ8ob:6z[CVE6S=93
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu_ns
+Z15 w1649195619
+R1
+R2
+R3
+R4
+Z16 8C:/Users/ajp47/source/EEL4712Work/Project/alu_ns.vhd
+Z17 FC:/Users/ajp47/source/EEL4712Work/Project/alu_ns.vhd
+l0
+L4
+V;c^cJjZ5ze5]lAUT9m[LI3
+!s100 ?j8<KDF]8W2Z[dn2O5<@k1
+R7
+32
+Z18 !s110 1649796717
+!i10b 1
+Z19 !s108 1649796717.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/alu_ns.vhd|
+Z21 !s107 C:/Users/ajp47/source/EEL4712Work/Project/alu_ns.vhd|
+!i113 1
+R12
+R13
+Aalu_case
+R1
+R2
+R3
+Z22 DEx4 work 6 alu_ns 0 22 ;c^cJjZ5ze5]lAUT9m[LI3
+l21
+L20
+VHDKY9f8`A3k4Wfkl93UU[1
+!s100 hflaO:OYJJY=Hg4DQn33D1
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Ealu_ns_tb
+Z23 w1648523431
+R1
+R2
+R3
+R4
+Z24 8C:/Users/ajp47/source/EEL4712Work/Project/alu_ns_tb.vhd
+Z25 FC:/Users/ajp47/source/EEL4712Work/Project/alu_ns_tb.vhd
+l0
+L5
+VUd76M:cb02BO[cj>B:G1A0
+!s100 ]eR?dmNgGOXmC7FTNBELj0
+R7
+32
+R18
+!i10b 1
+R19
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/alu_ns_tb.vhd|
+Z27 !s107 C:/Users/ajp47/source/EEL4712Work/Project/alu_ns_tb.vhd|
+!i113 1
+R12
+R13
+Aalu_tb
+R1
+R2
+R3
+DEx4 work 9 alu_ns_tb 0 22 Ud76M:cb02BO[cj>B:G1A0
+l35
+L8
+VYIBmR1;?kDhPf;Gi_<@fJ2
+!s100 lIK?XWJdz6Ji^3`IBBaTP2
+R7
+32
+R18
+!i10b 1
+R19
+R26
+R27
+!i113 1
+R12
+R13
+Econtroller
+Z28 w1649796698
+R1
+R2
+R3
+R4
+Z29 8C:/Users/ajp47/source/EEL4712Work/Project/controller.vhd
+Z30 FC:/Users/ajp47/source/EEL4712Work/Project/controller.vhd
+l0
+L5
+V75OPWhYaNeae?IVa8`TTo0
+!s100 dnQl2Ul^]7M<R_QY:Tb`O3
+R7
+32
+R8
+!i10b 1
+R9
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/controller.vhd|
+Z32 !s107 C:/Users/ajp47/source/EEL4712Work/Project/controller.vhd|
+!i113 1
+R12
+R13
+Afsm2
+R1
+R2
+R3
+Z33 DEx4 work 10 controller 0 22 75OPWhYaNeae?IVa8`TTo0
+l53
+L37
+V;::@[ULk_Ph2EiJkT@4`>3
+!s100 <g3;@afI68DVLf<gDEPmi0
+R7
+32
+R8
+!i10b 1
+R9
+R31
+R32
+!i113 1
+R12
+R13
+Edatapath
+Z34 w1649766319
+R1
+R2
+R3
+R4
+Z35 8C:/Users/ajp47/source/EEL4712Work/Project/datapath.vhd
+Z36 FC:/Users/ajp47/source/EEL4712Work/Project/datapath.vhd
+l0
+L5
+V9kl;I7OXWhP9Ye7??MT7c0
+!s100 H;fGo=GC_aH`A48CJ?kGK0
+R7
+32
+R8
+!i10b 1
+R9
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/datapath.vhd|
+Z38 !s107 C:/Users/ajp47/source/EEL4712Work/Project/datapath.vhd|
+!i113 1
+R12
+R13
+Astr
+Z39 DEx4 work 6 mux4x1 0 22 fm`2Q6C9J5zEcFHdK5TSS0
+Z40 DEx4 work 7 sign_ex 0 22 VnROgbkk_n46za0BcFNUW1
+Z41 DEx4 work 6 mux2x1 0 22 kV39<cKY;T^4m8aU]Ugh43
+R22
+R14
+Z42 DEx4 work 13 register_file 0 22 Y=;0:QNPkZN5_0A<SXm@L2
+Z43 DEx4 work 6 memory 0 22 on6EeS1c=0YTUC=XGe_Xm0
+Z44 DEx4 work 3 reg 0 22 VXa:<8Q3g=jVHcfXO;mni0
+R1
+R2
+R3
+Z45 DEx4 work 8 datapath 0 22 9kl;I7OXWhP9Ye7??MT7c0
+l81
+L38
+VBoEk6iNo9<T;_Oo3`biM32
+!s100 ;:VHCjP9]98OQ5JGUbG@@2
+R7
+32
+R8
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13
+Edecoder7seg
+Z46 w1642969258
+R1
+R2
+R3
+R4
+Z47 8C:/Users/ajp47/source/EEL4712Work/Project/decoder7seg.vhd
+Z48 FC:/Users/ajp47/source/EEL4712Work/Project/decoder7seg.vhd
+l0
+L5
+V;NkKaS643]T5G`H:Qc1Da2
+!s100 gB9zbfB650>WGc6Zj8aEe3
+R7
+32
+R8
+!i10b 1
+R9
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/decoder7seg.vhd|
+Z50 !s107 C:/Users/ajp47/source/EEL4712Work/Project/decoder7seg.vhd|
+!i113 1
+R12
+R13
+Awith_sel
+R1
+R2
+R3
+Z51 DEx4 work 11 decoder7seg 0 22 ;NkKaS643]T5G`H:Qc1Da2
+l13
+L12
+VY@Q9K@SfgOQ6z@4h;SS`J1
+!s100 0V@cb_CYFG@99EjzY=jzo3
+R7
+32
+R8
+!i10b 1
+R9
+R49
+R50
+!i113 1
+R12
+R13
+Ememory
+Z52 w1649768217
+R1
+R2
+R3
+R4
+Z53 8C:/Users/ajp47/source/EEL4712Work/Project/memory.vhd
+Z54 FC:/Users/ajp47/source/EEL4712Work/Project/memory.vhd
+l0
+L5
+Von6EeS1c=0YTUC=XGe_Xm0
+!s100 Ei1597mDGL6<eS>kPIU@H3
+R7
+32
+R18
+!i10b 1
+R19
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/memory.vhd|
+Z56 !s107 C:/Users/ajp47/source/EEL4712Work/Project/memory.vhd|
+!i113 1
+R12
+R13
+Abhv
+R1
+R2
+R3
+R43
+l44
+L26
+V3z<hfBZYbzbV_Q@VdVG^?1
+!s100 ZQRnj[QQdMX^>I;3G6M<B1
+R7
+32
+R18
+!i10b 1
+R19
+R55
+R56
+!i113 1
+R12
+R13
+Ememory_tb
+Z57 w1648531725
+R1
+R2
+R3
+R4
+Z58 8C:/Users/ajp47/source/EEL4712Work/Project/memory_tb.vhd
+Z59 FC:/Users/ajp47/source/EEL4712Work/Project/memory_tb.vhd
+l0
+L5
+V_kiS2gc@klE4Vk3RdCF4^2
+!s100 K:h_7;_e46:2;TAj@4dAB3
+R7
+32
+R18
+!i10b 1
+R19
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/memory_tb.vhd|
+Z61 !s107 C:/Users/ajp47/source/EEL4712Work/Project/memory_tb.vhd|
+!i113 1
+R12
+R13
+Amemory_tb
+R1
+R2
+R3
+DEx4 work 9 memory_tb 0 22 _kiS2gc@klE4Vk3RdCF4^2
+l45
+L8
+VX7I_kJ4>jZNJHf:[GBRLa3
+!s100 D3aKe91=6[m3jQ6EcWU<41
+R7
+32
+R18
+!i10b 1
+R19
+R60
+R61
+!i113 1
+R12
+R13
+Emux2x1
+Z62 w1645467834
+R2
+R3
+R4
+Z63 8C:/Users/ajp47/source/EEL4712Work/Project/mux2x1.vhd
+Z64 FC:/Users/ajp47/source/EEL4712Work/Project/mux2x1.vhd
+l0
+L4
+VkV39<cKY;T^4m8aU]Ugh43
+!s100 ?9cDIcZ[1dZ>jf8VF7U^W1
+R7
+32
+R8
+!i10b 1
+R9
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/mux2x1.vhd|
+Z66 !s107 C:/Users/ajp47/source/EEL4712Work/Project/mux2x1.vhd|
+!i113 1
+R12
+R13
+Abhv
+R2
+R3
+R41
+l15
+L14
+VE8m]F>nl[[TdQHdA@meU_2
+!s100 iE]8Bme[VV32]^FMicDFf3
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Emux4x1
+Z67 w1648532679
+R2
+R3
+R4
+Z68 8C:/Users/ajp47/source/EEL4712Work/Project/mux4x1.vhd
+Z69 FC:/Users/ajp47/source/EEL4712Work/Project/mux4x1.vhd
+l0
+L4
+Vfm`2Q6C9J5zEcFHdK5TSS0
+!s100 QgR^LFgZ=<6gTX^;kdehi1
+R7
+32
+R8
+!i10b 1
+R9
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/mux4x1.vhd|
+Z71 !s107 C:/Users/ajp47/source/EEL4712Work/Project/mux4x1.vhd|
+!i113 1
+R12
+R13
+Abhv
+R2
+R3
+R39
+l17
+L16
+Vl0Ke47k=j]bC2]hBMhc_T0
+!s100 jDL=nPm;7i7WfoZ0RU?j72
+R7
+32
+R8
+!i10b 1
+R9
+R70
+R71
+!i113 1
+R12
+R13
+Eramv2
+Z72 w1649795014
+Z73 DPx9 altera_mf 20 altera_mf_components 0 22 @6M>I48X_jBQDo@?W=TN93
+R2
+R3
+R4
+Z74 8C:/Users/ajp47/source/EEL4712Work/Project/RAMv2.vhd
+Z75 FC:/Users/ajp47/source/EEL4712Work/Project/RAMv2.vhd
+l0
+L43
+V[KR_mJ8>YAO]<T`3TVEg92
+!s100 Hh=UU?Vi>kbbYg`>oX8o;1
+R7
+32
+R18
+!i10b 1
+R19
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/RAMv2.vhd|
+Z77 !s107 C:/Users/ajp47/source/EEL4712Work/Project/RAMv2.vhd|
+!i113 1
+R12
+R13
+Asyn
+R73
+R2
+R3
+DEx4 work 5 ramv2 0 22 [KR_mJ8>YAO]<T`3TVEg92
+l59
+L55
+V=SEI9;SkZPzMf9Dc[]VV?3
+!s100 i2^JER_RMVccicG>1alKA3
+R7
+32
+R18
+!i10b 1
+R19
+R76
+R77
+!i113 1
+R12
+R13
+Ereg
+Z78 w1645496224
+R2
+R3
+R4
+Z79 8C:/Users/ajp47/source/EEL4712Work/Project/register.vhd
+Z80 FC:/Users/ajp47/source/EEL4712Work/Project/register.vhd
+l0
+L4
+VVXa:<8Q3g=jVHcfXO;mni0
+!s100 <J6;CzOhg;[l>kW_2B16Q1
+R7
+32
+R8
+!i10b 1
+R9
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/register.vhd|
+Z82 !s107 C:/Users/ajp47/source/EEL4712Work/Project/register.vhd|
+!i113 1
+R12
+R13
+Abhv
+R2
+R3
+R44
+l16
+L15
+VjPEFP4BVeNb1Klm`9QgLR2
+!s100 QBT6=Xo232U>Wl:a0De?F1
+R7
+32
+R8
+!i10b 1
+R9
+R81
+R82
+!i113 1
+R12
+R13
+Eregister_file
+Z83 w1649134222
+R1
+R2
+R3
+R4
+Z84 8C:/Users/ajp47/source/EEL4712Work/Project/regfile.vhd
+Z85 FC:/Users/ajp47/source/EEL4712Work/Project/regfile.vhd
+l0
+L6
+VY=;0:QNPkZN5_0A<SXm@L2
+!s100 L7^K2FdUnNY?6[lLzZAmd1
+R7
+32
+R18
+!i10b 1
+R19
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/regfile.vhd|
+Z87 !s107 C:/Users/ajp47/source/EEL4712Work/Project/regfile.vhd|
+!i113 1
+R12
+R13
+Async_read
+R1
+R2
+R3
+R42
+l24
+L21
+VIk^kWcKDTC;nHaJ2elm;52
+!s100 K3PN]C1aS1f:[T_fS1:gg0
+R7
+32
+R18
+!i10b 1
+R19
+R86
+R87
+!i113 1
+R12
+R13
+Esign_ex
+Z88 w1648573235
+R1
+R2
+R3
+R4
+Z89 8C:/Users/ajp47/source/EEL4712Work/Project/sign_ex.vhd
+Z90 FC:/Users/ajp47/source/EEL4712Work/Project/sign_ex.vhd
+l0
+L5
+VVnROgbkk_n46za0BcFNUW1
+!s100 hC<K6[NcKHVD1KWR^]?f`1
+R7
+32
+R8
+!i10b 1
+R9
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/sign_ex.vhd|
+Z92 !s107 C:/Users/ajp47/source/EEL4712Work/Project/sign_ex.vhd|
+!i113 1
+R12
+R13
+Abhv
+R1
+R2
+R3
+R40
+l17
+L16
+Va[Fd?DMZCfSnlnV[ZK:;J0
+!s100 LLnUT`5@A?NUbXiNz;j=A0
+R7
+32
+R8
+!i10b 1
+R9
+R91
+R92
+!i113 1
+R12
+R13
+Etop_level
+Z93 w1649766476
+R1
+R2
+R3
+R4
+Z94 8C:/Users/ajp47/source/EEL4712Work/Project/top_level.vhd
+Z95 FC:/Users/ajp47/source/EEL4712Work/Project/top_level.vhd
+l0
+L8
+VYd^U2T@KP]i^fkQL30V=O0
+!s100 II4C:[a?<OL^T?Z_=g_f_2
+R7
+32
+R8
+!i10b 1
+R9
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/top_level.vhd|
+Z97 !s107 C:/Users/ajp47/source/EEL4712Work/Project/top_level.vhd|
+!i113 1
+R12
+R13
+Astr
+R33
+R45
+R51
+R1
+R2
+R3
+Z98 DEx4 work 9 top_level 0 22 Yd^U2T@KP]i^fkQL30V=O0
+l51
+L29
+VckHcFR8KJMVKYWP=YGjG52
+!s100 >]dcRPj?N4;4;:e@Ab:=V2
+R7
+32
+R8
+!i10b 1
+R9
+R96
+R97
+!i113 1
+R12
+R13
+Etop_level_tb
+Z99 w1649796226
+R1
+R2
+R3
+R4
+Z100 8C:/Users/ajp47/source/EEL4712Work/Project/top_level_tb_gcd.vhd
+Z101 FC:/Users/ajp47/source/EEL4712Work/Project/top_level_tb_gcd.vhd
+l0
+L5
+VRM3FUnL=3YioQ^X6YdD;j3
+!s100 NN8W`PITlIg9E[?MV8dK=0
+R7
+32
+R8
+!i10b 1
+R9
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ajp47/source/EEL4712Work/Project/top_level_tb_gcd.vhd|
+Z103 !s107 C:/Users/ajp47/source/EEL4712Work/Project/top_level_tb_gcd.vhd|
+!i113 1
+R12
+R13
+Atop_level_tb
+R98
+R1
+R2
+R3
+Z104 DEx4 work 12 top_level_tb 0 22 RM3FUnL=3YioQ^X6YdD;j3
+l25
+L8
+Z105 VSd:_@j`A5FHkmfcBD=ckg2
+Z106 !s100 D5K2GjUj=fg95R?^mk`bf2
+R7
+32
+R8
+!i10b 1
+R9
+R102
+R103
+!i113 1
+R12
+R13

@@ -1,0 +1,126 @@
+C:/Users/ajp47/source/EEL4712Work/Project/top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_level
+-- Compiling architecture STR of top_level
+-- Loading entity decoder7seg
+-- Loading entity datapath
+-- Loading entity controller
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/mux2x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/mux2x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2x1
+-- Compiling architecture bhv of mux2x1
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/sign_ex.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/sign_ex.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sign_ex
+-- Compiling architecture BHV of sign_ex
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture bhv of reg
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/alu_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/alu_ctrl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_ctrl
+-- Compiling architecture BHV of alu_ctrl
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/mux4x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/mux4x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4x1
+-- Compiling architecture bhv of mux4x1
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/alu_ns.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/alu_ns.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_ns
+-- Compiling architecture alu_case of alu_ns
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/decoder7seg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/decoder7seg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decoder7seg
+-- Compiling architecture with_sel of decoder7seg
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/memory_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/memory_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_tb
+-- Compiling architecture memory_tb of memory_tb
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/regfile.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/regfile.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture sync_read of register_file
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/alu_ns_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/alu_ns_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_ns_tb
+-- Compiling architecture alu_tb of alu_ns_tb
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/datapath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity datapath
+-- Compiling architecture STR of datapath
+-- Loading entity reg
+-- Loading entity memory
+-- Loading entity register_file
+-- Loading entity alu_ctrl
+-- Loading entity alu_ns
+-- Loading entity mux2x1
+-- Loading entity sign_ex
+-- Loading entity mux4x1
+
+} {} {}} C:/Users/ajp47/source/EEL4712Work/Project/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/ajp47/source/EEL4712Work/Project/memory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture BHV of memory
+
+} {} {}}
